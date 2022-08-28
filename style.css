@@ -1,0 +1,41 @@
+body{
+    background: url(img/Rec.png) no-repeat 0px;
+}
+
+
+.burger{
+    right: 60px;
+    top: 17;
+    position: absolute;
+}
+
+.navbar{
+    border-radius: 30px;
+    margin-right: 30px;
+    background-color: white;
+    float: right;
+    width: 750px;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+ul{
+ 
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 28px;
+}
+
+a{
+    position: relative;
+    justify-self: center;
+    color: black;
+    text-decoration: none;
+}
