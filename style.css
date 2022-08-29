@@ -1,3 +1,26 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
 body{
     background: url(img/Rec.png) no-repeat 0px;
 }
@@ -9,13 +32,14 @@ body{
 }
 
 .burger{
-    right: 20px;
+    right: 8px;
     top: 10;
     position: absolute;
     cursor: pointer;
 }
 
 .navbar{
+
     position: fixed;
     right: 0;
     border-radius: 30px;
@@ -46,10 +70,12 @@ a:hover{
 }
 
 a{
+    font-family: 'Gilroy-Regular';
     position: relative;
     justify-self: center;
     color: black;
     text-decoration: none;
+    right: 20px;
 }
 
 .text-box{
@@ -57,6 +83,7 @@ a{
     bottom: 170px;
     position: absolute;
     width: 900px;
+    font-family: 'Gilroy-Regular';
 }
 
 .boul{
@@ -67,9 +94,11 @@ a{
 
 h1 {
     color: white;
+    font-family: 'Gilroy-Bold';
 }
 
 p{
+    font-family: 'Gilroy-Regular';
     color: white;
     line-height: 150%;
     word-spacing: 6px;
@@ -77,6 +106,7 @@ p{
 }
 
 .button{
+    font-family: 'Gilroy-Regular';
     text-align: center;
     position: absolute;
     bottom: 80px;
