@@ -8,7 +8,6 @@
 		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-
 @font-face {
 	font-family: 'Gilroy-Regular';
 	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
@@ -22,7 +21,9 @@
 
 
     body{
+    margin: 0;
     background: url(img/Rec.png) no-repeat 0px;
+    font-family: 'Gilroy-Regular';
 }
 
 .burger:hover{
@@ -89,7 +90,7 @@ a{
 .boul{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -22;
 }
 
 h1 {
@@ -194,6 +195,33 @@ p{
     z-index: 999;
     left: 360px;
 }
+
+.shop{
+    position: absolute;
+    top: 770px;
+    background-color: rgb(220, 220, 220);
+    width: 1440px;
+    height: 400px;
+}
+
+.onee{
+    width: 280px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 130px;
+    top: 250px;
+}
+
+.ch{
+    position: absolute;
+    left:150px;
+    top: 100px;
+}
+
+
+
 /* Хочу обратить внимание что дизайн мобильной версии сделан "на скорую руку" */
 @media (max-width: 700px) {
     
