@@ -836,11 +836,10 @@ h1 {
 
 .greenBox{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: #8DBB11;
     position: relative;
     top: 400px;
-    clip-path: polygon(0 20% 20% 20% 20%);
 }
 
 .whiteboul{
@@ -865,12 +864,14 @@ h1 {
     position: relative;
     bottom: 750px;
     left: 1100px;
+    z-index: 9999;
   
 }
 .flyY {
     position: relative;
     bottom: 1300px;
     right: 290px;
+    z-index: 9999;
 
 }
 .apple {
@@ -886,4 +887,49 @@ h1 {
     position: relative;
     bottom: 790px;
     right: 200px;
+}
+
+.rect{
+    position: relative;
+    top: 220px;
+    z-index: 0;
+}
+
+.whit{
+    background-color: white;
+    height: 300px;
+    width: 1440px;
+    position: relative;
+    top: 110px;
+}
+
+
+.subscribe{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 210px;
+    left: 100px;
+}
+
+.subscribe2{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 210px;
+    left: 100px;
+    line-height: 33px;
+}
+
+.subs{
+    position: relative;
+    bottom: 110px;
+    right: 990px;
+    background-color: rgb(145, 92, 92);
+}
+
+.sub{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0;
 }
