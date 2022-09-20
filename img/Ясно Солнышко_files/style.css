@@ -21,12 +21,10 @@
 
 
     body{
+    margin: 0 auto;
     font-family: 'Gilroy-Regular';
     overflow-x: hidden;
     background-color: #eae7e7;
-    width: 100%;
-    height: 100%;
-    margin: 0;
 }
 
 .bagraundContainer{
@@ -78,9 +76,9 @@ a{
 }
 
 .text-box{
-    bottom: 1230px;
-    left: 62px;
-    position: relative;
+    left: 60px;
+    bottom: 170px;
+    position: absolute;
     width: 900px;
     font-family: 'Gilroy-Regular';
 }
@@ -92,15 +90,11 @@ a{
 }
 
 h1 {
-    position: relative;
     color: white;
     font-family: 'Gilroy-Bold';
-    bottom: 0px;
 }
 
 #p{
-    bottom: 0px;
-    position: relative;
     font-family: 'Gilroy-Regular';
     color: white;
     line-height: 150%;
@@ -148,31 +142,7 @@ h1 {
     bottom: 730px;
     left: 700px;
 }
-
-
-.button{
-    font-family: 'Gilroy-Regular';
-    text-align: center;
-    position: relative;
-    bottom: 800px;
-    left: 60px;
-    height: 40px;
-    background-color: white;
-    width: 150px;
-    border-radius: 40px;
-    padding-top: 20px;
-    letter-spacing: 0.5px;
-
-}
-
-.button:hover{
-    color: white;
-    border: 1px solid white;
-    background-color: #8DBB11;
-}
-
-
-
+/* 
 .left{
     font-size: 40px;
     color: white;
@@ -183,8 +153,6 @@ h1 {
     text-align: center;
     line-height: 60px;
     position: relative;
-    bottom: 861px;
-    left: 460px;
 
     z-index: 1000;
 }
@@ -202,10 +170,10 @@ h1 {
     border-radius: 100px;
     text-align: center;
     line-height: 60px;
+    position: absolute;
+    top: 605px;
+    left: 350px;
     z-index: 1000;
-    position: relative;
-    bottom: 921px;
-    left: 390px;
 }
 
 .right:hover{
@@ -216,12 +184,11 @@ h1 {
 .number{
     font-size: 29px;
     color: white;
+    position: absolute;
+    top: 625px;
+    left: 570px;
     z-index: 1000;
-    position: relative;
-    bottom: 960px;
-    left: 600px;
-    
-}
+} */
 
 .colortext{
     color: rgba(255, 255, 255, 0.427);
@@ -510,380 +477,4 @@ h1 {
     background-color: white;
     height: 800px;
 
-}
-
-
-.h1{
-    font-size: 23px;
-    position: relative;
-    top: 100px;
-    left: 50px;
-}
-
-.box{
-    position: relative;
-    left: 50px;
-    top: 130px;
-    width: 410px;
-}
-
-.img1{
-    width: 300px;
-    height: 300px;
-}
-
-.img1:hover{
-    box-shadow: 0px 0px 10px 0px rgba(53, 53, 53, 0.5);
-    height: 301px;
-    transition: 0.3s;
-}
-.sun:hover{
-    color: #8DBB11;
-    cursor: pointer;
-}
-
-.sale{
-    position: relative;
-    right: 310px;
-    padding: 13px;
-    border-radius: 30px;
-    background-color: #8DBB11;
-    color: white;
-}
-
-.sale:hover{
-    border: 2px solid #8DBB11;
-    color: #8DBB11;
-    background-color: white;
-    transition: 0.3s;
-}
-
-#colorText{
-    font-size: 13px;
-    color: rgb(105, 105, 105);
-}
-
-.boxOne{
-    position: relative;
-    left: 360px;
-    bottom: 271px;
-    width: 410px;
-}
-
-.img2:hover{
-    box-shadow: 0px 0px 10px 0px rgba(53, 53, 53, 0.5);
-    height: 301px;
-    transition: 0.3s;
-}
-.W:hover{
-    color: #8DBB11;
-    cursor: pointer;
-}
-
-
-.img2{
-    width: 300px;
-    height: 300px;
-}
-
-
-#W{
-    font-size: 13px;
-    position: relative;
-    background-color:#F5F3F0;
-    padding: 13px;
-    border-radius: 30PX;
-    right: 310px;
-    color: #8DBB11;
-}
-
-#W:hover{
-    color: white;
-    background-color: #8DBB11;
-    transition: 0.3s;
-}
-
-
-
-.boxTwo{
-    position: relative;
-    left: 670px;
-    bottom: 464px;
-    width: 410px;
-}
-
-.img3{
-    width: 300px;
-    height: 300px;
-}
-
-.mom{
-    cursor: pointer;
-}
-
-.mom:hover{
-    color: #8DBB11;
-}
-
-.img3:hover{
-    box-shadow: 0px 0px 10px 0px rgba(53, 53, 53, 0.5);
-    height: 301px;
-    transition: 0.3s;
-}
-
-.saleTwo{
-    position: relative;
-    padding: 13px;
-    border-radius: 30px;
-    background-color: #8DBB11;
-    color: white;
-    left: 0;
-    bottom: 134px;
-}
-
-.saleTwo:hover{
-    border: 2px solid #8DBB11;
-    color: #8DBB11;
-    background-color: white;
-    transition: 0.3s;
-}
-
-.boxFree{
-    position: relative;
-    bottom: 903px;
-    left: 980px;
-}
-
-.img4{
-    width: 300px;
-    height: 300px;
-}
-.img4:hover{
-    box-shadow: 0px 0px 10px 0px rgba(53, 53, 53, 0.5);
-    height: 301px;
-    transition: 0.3s;
-}
-
-.rils{
-    width: 1350px;
-    margin: 0 auto;
-    height: 600px;
-}
-
-
-.seven{
-    cursor: pointer;
-}
-
-.seven:hover{
-    color: #8DBB11;
-}
-
-.saleTree{
-    position: relative;
-    padding: 13px;
-    border-radius: 30px;
-    background-color: #8DBB11;
-    color: white;
-    left: 0;
-    bottom: 97px;
-}
-.saleTree:hover{
-    border: 2px solid #8DBB11;
-    color: #8DBB11;
-    background-color: white;
-    transition: 0.3s;
-}
-
-.allSale{
-    position: relative;
-    padding: 20px 30px 20px 30px;
-    border-radius: 60px;
-    background-color: #8DBB11;
-    color: white;
-    top: 100px;
-    right: 0px;
-
-}
-
-.allSale:hover{
-    padding: 22px 32px 22px 32px;
-    border-radius: 60px;
-    background-color: #ffffff;
-    color: #8DBB11;
-    border: 2px solid #8DBB11;
-    transition: 0.3s;
-
-}
-
-.flY{
-    position: relative;
-    bottom: 800px;
-    left: 400px;
-}
-
-.fly6{
-    position: relative;
-    top: 0;
-    left: 1265px;
-}
-
-.shopnew{
-    width: 1400px;
-    height: 700px;
-    margin: 0 auto;
-}
-
-.shop{
-    top: 100px;
-    position: relative;
-    left: 50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 200px;
-    background-color: #FFEE97;
-    text-align: center;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
-}
-
-.shopone {
-    position: relative;
-    left: 380px;
-    bottom: 200px;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 200px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-   }
-.perek {
-    display:block;
-    max-width:300px;
-
-}
-.shoptwo {
-    position: relative;
-    left: 710px;
-    bottom: 500px;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 200px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-
-}
-.vif {
-    display:block;
-    max-width:300px;
-
-}
-.shoptree {
-    position: relative;
-    left: 1040px;
-    bottom: 800px;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 200px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-}
-.RG {
-    display:block;
-    max-width:300px;
- 
-}
-
-.h2{
-    font-size: 30px;
-    position: relative;
-    top: 0;
-    left: 60px;
-}
-
-.redd{
-    width: 150px;
-    height: 150px;
-    position: relative;
-    top: 100px;
-    left: 900px;
-    margin: 0;
-}
-
-.where{
-    bottom: 650px;
-    left: 1200px;
-    position: relative;
-    padding: 20px 30px 20px 30px;
-    background-color: #FFEE97;
-    border-radius: 100px;
-    border: 0;
-}
-
-.where:hover{
-    background-color: white;
-    border: 2px solid #FFEE97;
-    transition: 0.3s;
-    color: black;
-}
-
-.greenBox{
-    width: 100%;
-    height: 600px;
-    background-color: #8DBB11;
-    position: relative;
-    top: 400px;
-    clip-path: polygon(0 20% 20% 20% 20%);
-}
-
-.whiteboul{
-    width: 414px;
-    height: 414px;
-    background-color: white;
-    border-radius: 200px;
-    position: relative;
-    bottom: 600px;
-    left: 900px;
-}
-
-.Wow{
-    position: relative;
-    left: 730px;
-    z-index: 999;
-    bottom: 250px;
-
-}
-
-.fluX {
-    position: relative;
-    bottom: 750px;
-    left: 1100px;
-  
-}
-.flyY {
-    position: relative;
-    bottom: 1300px;
-    right: 290px;
-
-}
-.apple {
-    position: relative;
-    bottom: 1400px;
-}
-.kl {
-    position: relative;
-    bottom: 1500px;
-    left: 600px;
-}
-.sl {
-    position: relative;
-    bottom: 790px;
-    right: 200px;
 }
