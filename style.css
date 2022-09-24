@@ -35,7 +35,7 @@
 }
 
 
-.navbar{
+nav{
 
     position: fixed;
     right: 0;
@@ -95,12 +95,12 @@ h1 {
     position: relative;
     color: white;
     font-family: 'Gilroy-Bold';
-    bottom: 0px;
+    top: 55px;
 }
 
 #p{
-    bottom: 0px;
     position: relative;
+    top: 60px;
     font-family: 'Gilroy-Regular';
     color: white;
     line-height: 150%;
@@ -154,8 +154,8 @@ h1 {
     font-family: 'Gilroy-Regular';
     text-align: center;
     position: relative;
-    bottom: 800px;
-    left: 60px;
+    bottom: 1130px;
+    left: 50px;
     height: 40px;
     background-color: white;
     width: 150px;
@@ -183,7 +183,7 @@ h1 {
     text-align: center;
     line-height: 60px;
     position: relative;
-    bottom: 861px;
+    bottom: 800px;
     left: 460px;
 
     z-index: 1000;
@@ -204,8 +204,8 @@ h1 {
     line-height: 60px;
     z-index: 1000;
     position: relative;
-    bottom: 921px;
-    left: 390px;
+    bottom: 860px;
+    left: 386px;
 }
 
 .right:hover{
@@ -218,7 +218,7 @@ h1 {
     color: white;
     z-index: 1000;
     position: relative;
-    bottom: 960px;
+    bottom: 890px;
     left: 600px;
     
 }
@@ -880,7 +880,7 @@ h1 {
 }
 .kl {
     position: relative;
-    bottom: 1500px;
+    bottom: 1000px;
     left: 600px;
 }
 .sl {
@@ -891,7 +891,7 @@ h1 {
 
 .rect{
     position: relative;
-    top: 220px;
+    top: 120px;
     z-index: 0;
 }
 
@@ -899,8 +899,8 @@ h1 {
     background-color: white;
     height: 300px;
     width: 1440px;
-    position: relative;
-    top: 110px;
+    position: absolute;
+    top: 0px;
 }
 
 
